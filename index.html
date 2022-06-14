@@ -31,7 +31,7 @@
     <main>
         <div class="container main-container">
             <section class="section" id="profile">
-                <img class="img" src="assets/Avatar.jpeg" alt="my photo"> 
+                <img class="img" src="assets/Avatar.jpeg" alt="my-photo"> 
                 <h1 class="section-title">Pavel Putseika</h1>
                 <p>Frontend Developer</p>
             </section>
@@ -58,11 +58,15 @@
                 </ul>
             </section>
             <section class="section" id="code"><h2 class="section-title">Code</h2>
-                <p>function factorial(n) {
-                    if(n < 0) return null;
-                    if (n <= 1) return 1;
+                 <pre>
+                    <code>
+                    function factorial(n) {
+                    if(n &#60; 0) return null;
+                    if (n &#60;= 1) return 1;
                     return n * factorial(n-1);
-                  }</p>
+                    }
+                    </code>
+                </pre>    
             </section>
             <section class="section" id="courses"><h2 class="section-title">Courses</h2>
             <ul>
@@ -82,7 +86,12 @@
     </main>
 
     <footer>
-        <div class="container"></div>
+        <div class="container">
+            <a href="https://github.com/putseika" target="_blank">Github</a>
+            <a href="https://rs.school/js/" target="_blank">
+                <img src="./assets/rs_school_js.svg" alt="RS-school-logo"  class="rs-school">
+            </a>
+        </div>
     </footer>
  
     

@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+    }
 
 .img {
     border: 5px solid black;
@@ -69,10 +69,18 @@ body {
   .section {
     width: 50%;
     border: 1px solid grey;
+    padding-left: 10px;
+    padding-top: 10px;
   }
 
   @media (max-width: 768px) {
     .section {
       width: 100%;
     }
+  }
+
+  .rs-school {
+    padding-left: 50px;
+    width: 100px;
+    height: 50px;
   }
